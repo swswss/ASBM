@@ -1,0 +1,21 @@
+name: asbm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.8.0
+      - torchvision==0.23.0
+      - numpy<2
+      - scipy==1.13.1
+      - pillow
+      - tqdm
+      - termcolor
+      - tensorboard
+      - torchmetrics==1.8.1
+      - diffusers==0.35.1
+      - huggingface_hub==0.35.3
+      - safetensors
+      - clean-fid==0.1.35
