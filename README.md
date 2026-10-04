@@ -8,7 +8,8 @@
     ·
     <a href="https://scholar.google.com/citations?user=kmXfNc4AAAAJ&hl=en">Jinhwan Sul</a><sup>2</sup>
     ·
-    <a href="http://www.joonseok.net/home.html">Joonseok Lee</a><sup>1†</sup><br>
+    <a href="http://www.joonseok.net/home.html">Joonseok Lee</a><sup>1†</sup>
+    ·
     <a href="https://sites.google.com/view/jaewoongchoi/home">Jaewoong Choi</a><sup>3†</sup>
     ·
     <a href="https://jaemoo-choi.github.io/">Jaemoo Choi</a><sup>2†</sup><br>
