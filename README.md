@@ -1,6 +1,28 @@
-# Efficient Generative Modeling beyond Memoryless Diffusion via Adjoint Schrödinger Bridge Matching (ICML 2026)
+<p align="center">
+<h1 align="center">ASBM (ICML 2026)</h1>
+<h3 align="center">Efficient Generative Modeling beyond Memoryless Diffusion via Adjoint Schrödinger Bridge Matching</h3>
+</p>
+<p align="center">
+  <p align="center">
+    <a href="https://swswss.github.io/">Jeongwoo Shin</a><sup>1</sup>
+    ·
+    <a href="https://scholar.google.com/citations?user=kmXfNc4AAAAJ&hl=en">Jinhwan Sul</a><sup>3</sup>
+    ·
+    <a href="http://www.joonseok.net/home.html">Joonseok Lee</a><sup>1†</sup><br>
+    <a href="https://sites.google.com/view/jaewoongchoi/home">Jaewoong Choi</a><sup>2†</sup>
+    ·
+    <a href="https://jaemoo-choi.github.io/">Jaemoo Choi</a><sup>3†</sup><br>
+    <sup>1</sup>Seoul National University <sup>2</sup>Sungkyunkwan University <sup>3</sup>Georgia Institute of Technology<br>
+    <sup>†</sup>Corresponding author
+  </p>
+  <h3 align="center"><a href="https://arxiv.org/abs/2602.15396">Paper</a></h3>
+</p>
+
+---
 
 Official PyTorch implementation of **ASBM** ([arXiv:2602.15396](https://arxiv.org/abs/2602.15396)), with training and evaluation code for CIFAR-10 (pixel space) and FFHQ-256 (latent space), the score-matching baseline, and one-step distillation.
+
+ASBM learns a generative model by solving the Schrödinger bridge problem, a dynamic (entropy-regularized) optimal transport problem between the data distribution and a Gaussian prior.
 
 ASBM training has two stages, which a single command runs in sequence:
 
