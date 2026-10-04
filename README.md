@@ -23,7 +23,7 @@
 
 Official PyTorch implementation of **ASBM** ([arXiv:2602.15396](https://arxiv.org/abs/2602.15396)), with training and evaluation code for CIFAR-10 (pixel space) and FFHQ-256 (latent space), the score-matching baseline, and one-step distillation.
 
-ASBM learns a generative model by solving the **Schrödinger Bridge** problem, a dynamic (entropy-regularized) optimal transport problem between the data distribution and a Gaussian prior.
+ASBM learns a generative model by solving the **Schrödinger Bridge** problem, a dynamic (entropy-regularized) optimal transport problem between the data distribution and an energy-given arbitrary prior.
 
 ASBM training has two stages, which a single command runs in sequence:
 
